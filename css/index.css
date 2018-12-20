@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:none
+}
+body{
+    background: #ddd
+}
+.wrap{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin:0 auto;
+}
+.item{
+    float: left;
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.item img{
+    display: block;
+    width:100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item img:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
